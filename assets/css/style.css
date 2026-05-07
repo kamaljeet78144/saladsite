@@ -1,0 +1,535 @@
+* {
+    box-sizing: border-box;
+}
+.header{ 
+ padding: 30px 0px;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    gap: 10px;
+} 
+ .head1 span i{
+    transform: rotate(-45deg);
+    width: 20px;
+
+}
+.spoon{
+    color: orangered; 
+    width: 30px;
+    margin-left: -10px;
+
+} 
+.head1{ 
+    font-style: oblique; 
+    padding-left: 30px;
+}
+.head2 ol li{
+    display: inline;
+    padding-left: 30px;
+}
+.head2{
+width: 70%;
+display: flex;
+justify-content: end;
+}
+.head2 ol li a{
+    text-decoration: none;
+    color: black;
+} 
+.head3{ 
+padding-top: 5px;
+   height: 30px; 
+   margin-top: 10px; 
+   background-color: aquamarine;
+
+}  
+ .head33{ 
+padding-top: 5px;
+    height: 30px; 
+    margin-top: 10px;
+ }
+ 
+.head4{ 
+    padding: 5px;
+    background-color: orangered; 
+font-size: 20px;
+    color: white;  
+    margin-top: 10px;
+    display: none; 
+}
+ @media ( max-width:570px) {  
+    .head2{ 
+        display: none;
+    }  
+    .head3{ 
+        display: none;
+    }
+    .head4{ 
+        display: flex; 
+        position: absolute;
+        right: 15px; 
+        
+
+    } 
+    .head33{  position: absolute;
+        right: 55px;
+
+    }
+
+    
+ }  
+ .section2{ 
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine; 
+    margin-top: 0px;
+    display: flex; 
+    gap: 200px;
+ }  
+ .fresh{  
+    padding: 100px; 
+    font-style: oblique;  
+    
+ } 
+ .fresh h1 { font-size: 50px;   
+} 
+.fresh button{ 
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    border-color: orange;
+    height: 40px;
+    width: 100px;
+}
+ .salad img{ 
+    animation-name: salad;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+   
+ 
+  } 
+ @keyframes salad { from {
+    transform: rotate(0deg);
+ }
+    to{ transform: rotate(359deg);}
+ } 
+ .section3{ 
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    padding: 50px 100px;
+    gap: 50px;
+
+ } 
+ .mixphoto{ 
+    padding-top: 80px;
+    display: flex;  
+   
+
+ }
+ .photo1{ display: flex;  
+    margin-left: 50px; 
+    border-radius: 10%; 
+    z-index: 2;
+    height: 400px;
+
+ }
+ .photo2{
+   height: 400px;
+   display: flex;
+   width: 250px;
+ z-index: 3;
+ margin-left: -70px;
+ margin-top: 100px;  
+ border: 1vh white solid ;  
+ } 
+ .since{  
+    margin-top: 100px;
+    padding-left: 50px;  
+    font-size: 20px;
+
+ }
+ .since span { 
+    color: orange; 
+    font-size: 50px;
+ } 
+ .section4{ 
+    height: 100vh;
+    width: 100%;
+ } 
+ .our{   
+    padding: 30px  550px; 
+    font-style: oblique; 
+    font-size: 20px;
+ } 
+ .our span{ 
+    color: orange;
+    font-size: 40px;
+ } 
+
+ .fruitttt{ 
+    display: flex; 
+    gap: 60px; 
+    justify-content: center;
+ }
+ .fruit{ 
+   
+    width: 300px; 
+    padding:40px 30px;
+    overflow: hidden; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgb(239, 229, 229);
+    
+ }   
+ .fruit img { 
+    border-radius: 100%;
+    border: 10px solid white;
+    position: absolute;
+    z-index: 3;
+ }
+ .section5{  
+   width: 100%;
+   background-color: aquamarine;  
+   margin: 0px;
+   
+
+ }  
+ .fruitup{
+   height: 180px;
+   position: relative;
+ } 
+ .circle{
+   height: 185px ;
+   width: 185px;
+   background-color: aquamarine;
+   border-radius: 50%;
+   position: absolute;
+   z-index: 2;
+   top: -70px;
+   left: -70px;
+ } 
+ .circle1{ 
+    height: 185px ;
+   width: 185px;
+   background-color: orangered;
+   border-radius: 50%;
+   position: absolute;
+   z-index: 2;
+   top: -70px;
+   left: -70px;
+ }
+  .cube{ 
+   height: 100px;
+   width: 60px;
+   background-color: White; 
+   position: absolute; 
+transform: rotate(33deg);
+bottom: -80px;
+right:-60px ; 
+
+  }
+  .cube1{
+   height: 100px;
+   width: 60px;
+   background-color: orangered; 
+   position: absolute; 
+transform: rotate(33deg);
+bottom: -80px;
+right:-60px ;
+  } 
+  .fruit:hover .circle{  
+   
+   background-color: orangered;
+
+  }
+
+  .fruit:hover .cube{
+   background-color: orangered;
+  }
+   
+.section5{
+   display: flex;
+   justify-content: space-between;
+   /* padding: 100px 0px 100px 50px; */
+}
+.menu{
+   padding: 80px ;
+}
+.menu h3{
+   
+   font-size: 45px;
+}
+.menu1{
+   display: flex;
+   gap: 30px;
+   font-weight: 200;
+}
+.menu1 p{
+   line-height: 30px;
+} 
+.menu span{ 
+   color: orangered;
+} 
+.btn{ 
+   color: white;
+   background-color: orangered; 
+   height: 50px;
+   width: 200px; 
+   border-radius: 20px;
+   border: none; 
+   font-weight: 900;
+} 
+.btn:hover { 
+   background-color: green;
+} 
+.section6{ 
+   width: 100%;
+   margin: 0px;
+   display: flex; 
+   gap: 40px; 
+   flex-wrap: wrap; 
+   padding: 100px ; 
+   justify-content: center;
+} 
+.healthy{ 
+   height: 200px;
+ width: 350px;
+background-color: white; 
+align-content: center;
+padding: 30px 50px; 
+border-radius: 10px; 
+box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+display: flex; 
+border: 2px solid  white;
+}  
+.healthy h3{ 
+   font-style: oblique;
+   font-weight: 900; 
+   font-size: 30px; 
+   margin: 0px;
+} 
+.healthy p{ 
+   font-style: oblique;
+   font-size: 15px; 
+   font-weight: 100;
+}
+
+.healthy:hover{
+   border: 2px solid rgb(242, 238, 238); 
+   cursor: pointer;
+}
+.healthy:hover h3{ 
+color: green;}
+.healthy:hover .icon{ 
+   color: green;
+}
+
+.icon{ 
+   
+   font-size: 35PX;
+   padding-right: 10px; 
+   color: orangered;
+} 
+.section7{
+margin: 0px;
+}  
+.mainchef{
+   display: flex; 
+   gap: 50px;  
+   padding: 100px 100px 0px 200px;
+} 
+.mainchef h3{ 
+   font-style: oblique;
+   font-weight: 900;
+   font-size: 45px;
+   
+}
+.chef{  
+   padding-top: 170px;
+   font-weight: 200;
+} 
+.chef span { 
+   color: orangered;
+} 
+.section8{ 
+   background-color:aquamarine; 
+  
+   gap: 30px;  
+ 
+   padding: 80px 80px 150px 80px;
+} 
+.section8 h3{ 
+   font-style: oblique; 
+   font-weight: 900; 
+   font-size: 25px;
+} 
+.section8 h4{ 
+   font-size: 20px; 
+   margin: 0px;
+}
+ .lorem{  
+   width: 500px;
+   
+   
+ }  
+ 
+ .pellen{ 
+      width: 500px;
+
+ }
+  .quote{ 
+   height: 40px;
+   width: 40px;
+  } 
+  
+.class8{  
+   display:flex; 
+   justify-content: center;
+   
+ 
+} 
+.lorem1{ 
+   padding-right: 30px;
+}  
+.star{ 
+   color: orangered;
+   padding-top: 10px; 
+   height: 50px;
+}
+.testi{ 
+   border-radius: 50%; 
+   height: 80px;
+   width: 80px;
+} 
+
+.dots{ 
+  display: flex;
+   gap: 10px; 
+   justify-content: center;
+   padding-top: 30px;
+   
+} 
+.dots1{ 
+      background-color: orangered; 
+       height: 15px; 
+   width: 15px; 
+   border-radius: 50%;
+
+
+}
+.dotd{
+   background-color: rgb(191, 185, 185);
+} 
+.dotd:hover{  
+   background-color: orangered; 
+   cursor: pointer;
+
+}
+  .section9 { 
+   font-style: oblique;
+   font-weight:900;
+   font-size: 27px;
+   padding: 50px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  } 
+  .email{ 
+   height: 60px;
+   width: 500px; 
+   border-top-left-radius: 20px; 
+   border-bottom-left-radius: 20px; 
+     border: 1px solid rgb(218, 214, 214);
+
+  } 
+  .email1{ 
+   width: 100px;
+height: 60px; 
+   border-top-right-radius: 20px; 
+   border-bottom-right-radius: 20px; 
+    color: white;
+    background-color: orangered; 
+    border: none;
+   
+ 
+  } 
+  .footer{ 
+   display: flex;
+   gap: 20px; 
+   justify-content: center;
+
+
+  } 
+  .about{
+    height: 300px;
+   width: 300px;
+
+
+  } 
+  .about1{
+    height: 300px;
+   width: 400px;
+   
+
+
+  } 
+  .info{ 
+   display: flex; 
+   gap: 10px; 
+   margin-top: 15px;
+  }
+  .info1{
+    display: flex; 
+   gap: 10px; 
+   margin-top: 15px;
+  }
+  .info p{
+   margin: 0px;
+  } 
+  .info1 p{
+   margin: 0px;
+   font-weight: 300;
+  } 
+  .social{ 
+   display: flex; 
+   gap:  18px;
+   padding-left: 15px; 
+  }
+.social p{  
+   padding: 8px;
+   background-color: pink;
+      border-radius: 50%;
+
+} 
+.social p:hover { 
+   background-color: orangered;
+   cursor: pointer;
+} 
+.info:hover{ 
+   color: green;
+   cursor: pointer;
+} 
+.section10{ 
+   text-align: center; 
+   font-weight: 200; 
+
+} 
+.section10 span{ 
+   font-weight: 900;
+   font-size: 20px;
+}
+.last{ 
+   position: fixed; 
+   background-color: orangered;
+   color: white; 
+   border-radius: 50%; 
+   right: 10px;
+   bottom: 10px; 
+   height: 50px;
+   width: 50px; 
+   border: none;
+} 
